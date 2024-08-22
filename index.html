@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Balls</title>
+</head>
+<style>
+      body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            overflow: hidden;
+        }
+
+        .ball {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #61dafb;
+            text-align: center;
+            color: white;
+            font-size: 45px;
+            position:relative;
+            animation: bounce 4s ease-in-out infinite;
+            animation-duration: 8s;
+            animation-duration: 1.5s;
+        }
+
+        .ball:nth-child(2) {
+            background-color: #ff6b6b;
+            animation-duration: 5s;
+            animation-delay: 1s;
+        }
+
+        .ball:nth-child(3) {
+            background-color: #600dfa;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+        }
+        .ball:nth-child(4) {
+            background-color: #fc761d;
+            animation-duration: 5s;
+            animation-delay: 1s;
+        }
+        .ball:nth-child(5) {
+            background-color: #f32268;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+        }
+        .ball:nth-child(6) {
+            background-color: #7a0166;
+            animation-duration: 5s;
+            animation-delay: 1s;
+        }
+        .ball:nth-child(7) {
+            background-color: #3054f7;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+        }
+        .ball:nth-child(8) {
+            background-color: #f5503a;
+            animation-duration: 5s;
+            animation-delay: 1s;
+        }
+        .ball:nth-child(9) {
+            background-color: #f55cf5;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+        }
+        .ball:nth-child(10){
+        background-color: #063b22;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+    .ball:nth-child(11){
+           background-color: #04709b;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+    }
+    .ball:nth-child(12){
+           background-color: #e20606;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+    .ball:nth-child(13){
+           background-color: #7c480c;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+    }
+    .ball:nth-child(14){
+           background-color: #76cf01;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+    .ball:nth-child(15){
+           background-color: #2a006d;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+    }
+    .ball:nth-child(16){
+           background-color: #019468;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+    .ball:nth-child(17){
+           background-color: #6203fc;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+    }
+    .ball:nth-child(18){
+           background-color: #f540fc;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+    .ball:nth-child(19){
+           background-color: #fa038b;
+            animation-duration: 8s;
+            animation-delay: 1.5s;
+    }
+    .ball:nth-child(20){
+           background-color: #920101;
+            animation-duration: 5s;
+            animation-delay: 1s;
+    }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            20%{
+                transform: translateX(+100) ;
+            }
+            30%{
+                transform: translateX(-200);
+            }
+            40%{
+                transform: translateY(+300);
+            }
+            50% {
+                transform: translateY(-400px);
+            }
+        }
+</style>
+<body>
+    <div class="ball">0</div>
+    <div class="ball">1</div>
+    <div class="ball">2</div>
+    <div class="ball">3</div>
+    <div class="ball">4</div>
+    <div class="ball">5</div>
+    <div class="ball">6</div>
+    <div class="ball">7</div>
+    <div class="ball">8</div>
+    <div class="ball">9</div>
+    <div class="ball">10</div>
+    <div class="ball">11</div>
+    <div class="ball">12</div>
+    <div class="ball">13</div>
+    <div class="ball">14</div>
+    <div class="ball">15</div>
+    <div class="ball">16</div>
+    <div class="ball">17</div>
+    <div class="ball">18</div>
+    <div class="ball">19</div>
+    <div class="ball">20</div>
+
+</body>
+</html>
